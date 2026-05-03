@@ -1,0 +1,50 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Object / intermediate files
+*.o
+*.obj
+*.pch
+*.ilk
+*.pdb
+*.idb
+*.exp
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Build directories
+build/
+cmake-build-*/
+out/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Python (if used alongside)
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.eggs/
+dist/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
